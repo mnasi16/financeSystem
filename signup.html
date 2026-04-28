@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up form</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-blue-500 text-white p-8 flex flex-col items-center justify-center ">
+    <div class="bg-gray-700 text-white rounded-lg p-6 mt-6 hover:shadow-2xl">
+        <h3 class="text-xl font-bold p-6">Create an account</h3>
+        <form action="" method="post">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 shadow-lg text-white font-bold py-2 px-4 rounded-lg ">register</button>
+            <p>Already have an account? <a href="front-page.html " class="text-blue-300">Login here</a></p>
+        </form>
+    </div>
+</body>
+</html>
