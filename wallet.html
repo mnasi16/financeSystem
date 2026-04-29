@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance tracking system</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-500 text-white p-6 flex flex-col items-center justify-center">
+    <h2 class="text-2xl font-bold  ">Welcome to the Finance Tracking System</h2>
+    <p>This is a simple money tracking system, where you can manage your finances effectively.<br>
+    Your income and expenses will be recorded here.</p>
+    <p>Income will be divided into the 50/30/20 rule.</p>
+    <div>
+        <div class="bg-gray-700 text-black p-8 rounded-xl">
+            <form action="" method="post">
+             <input type="text" id="income" name="income" required>
+            <button onclick="calc()" class="bg-blue-300 rounded-lg hover:bg-blue-700">calculate</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
